@@ -3,81 +3,128 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>SONAR TORI Restaurant</title>
+  <title>SONAR TORI Restaurant | Contai</title>
   <style>
-    body { margin:0; font-family:Arial, Helvetica, sans-serif; background:#f8f8f8; color:#333; }
-    nav { background:#222; padding:10px 0; position:sticky; top:0; z-index:1000; }
-    nav ul { list-style:none; display:flex; justify-content:center; margin:0; padding:0; }
-    nav ul li { margin:0 15px; }
-    nav ul li a { color:#fff; text-decoration:none; font-weight:bold; }
-    nav ul li a:hover { color:#f4a261; }
-    header { background:url('https://images.unsplash.com/photo-1555396273-367ea4eb4db5') center/cover no-repeat; height:70vh; color:white; display:flex; align-items:center; justify-content:center; text-align:center; }
-    header h1 { font-size:3rem; margin-bottom:10px; }
-    section { padding:60px 20px; max-width:1100px; margin:auto; }
-    .section-title { text-align:center; font-size:2rem; margin-bottom:30px; }
-    button { background:#e76f51; color:white; border:none; padding:10px 20px; border-radius:5px; cursor:pointer; margin:5px; }
-    footer { background:#222; color:white; text-align:center; padding:25px; }
-    .contact, .about { background:white; padding:20px; border-radius:8px; box-shadow:0 2px 6px rgba(0,0,0,0.1); }
-    .credit-badge { margin-top:10px; display:inline-block; background:#f4a261; color:#222; padding:6px 12px; border-radius:20px; font-size:14px; font-weight:bold; }
-    footer a { color:#f4a261; text-decoration:none; }
-    footer a:hover { text-decoration:underline; }
+    body { font-family: Arial, sans-serif; margin: 0; background:#faf7f2; color:#333; }
+    header { background:#8b5a2b; color:#fff; padding:20px; text-align:center; }
+    section { padding:20px; max-width:1100px; margin:auto; }
+    h2 { background:#eee; padding:10px; border-left:5px solid #8b5a2b; }
+    .menu-category { margin-bottom:30px; }
+    ul { list-style:none; padding:0; }
+    li { display:flex; justify-content:space-between; padding:6px 0; border-bottom:1px dotted #ccc; }
+    footer { background:#222; color:#fff; text-align:center; padding:20px; }
+    a.button { display:inline-block; padding:10px 15px; background:#4285F4; color:#fff; text-decoration:none; border-radius:5px; margin:5px; }
   </style>
 </head>
 <body>
 
-<nav>
-  <ul>
-    <li><a href="#home">Home</a></li>
-    <li><a href="#menu">Menu</a></li>
-    <li><a href="#about">About</a></li>
-    <li><a href="#contact">Contact</a></li>
-  </ul>
-</nav>
-
-<header id="home">
-  <div>
-    <h1>SONAR TORI</h1>
-    <p>Fresh • Tasty • Authentic</p>
-    <a href="tel:7029122522"><button>📞 Call Restaurant</button></a>
-    <a href="https://wa.me/917029122522" target="_blank"><button>📲 WhatsApp Order</button></a>
-  </div>
+<header>
+  <h1>SONAR TORI</h1>
+  <p>Central Bus Stand, Majna Rd, Contai, West Bengal</p>
+  <p>📞 9732610701</p>
+  <p>Open Daily: 8:00 AM – 10:30 PM</p>
 </header>
 
-<section id="menu">
-  <h2 class="section-title">Our Menu</h2>
-  <p style="text-align:center">Indian • Chinese • Mughlai • Bengali</p>
+<section>
+  <h2>🍛 Biryani</h2>
   <ul>
-    <li>Chicken Biryani – ₹170</li>
-    <li>Mutton Biryani – ₹230</li>
-    <li>Paneer Butter Masala – ₹180</li>
-    <li>Sonar Tori Special Chicken Nababi – ₹320</li>
+    <li><span>Veg Biryani</span><span>120</span></li>
+    <li><span>Egg Biryani</span><span>130</span></li>
+    <li><span>Chicken Biryani</span><span>170</span></li>
+    <li><span>Mutton Biryani</span><span>230</span></li>
+    <li><span>Special Chicken Biryani</span><span>280</span></li>
+    <li><span>Special Mutton Biryani</span><span>400</span></li>
   </ul>
-</section>
 
-<section id="about">
-  <h2 class="section-title">About Us</h2>
-  <div class="about">
-    <p>SONAR TORI is a popular restaurant in Contai, serving delicious Bengali, Indian, Chinese and Mughlai cuisine with love and quality.</p>
-  </div>
-</section>
+  <h2>🍚 Rice & Pulao</h2>
+  <ul>
+    <li><span>Plain Rice</span><span>25 / 40</span></li>
+    <li><span>Steamed Rice</span><span>40 / 60</span></li>
+    <li><span>Jeera Rice</span><span>90</span></li>
+    <li><span>Peas Pulao</span><span>120</span></li>
+    <li><span>Veg Pulao</span><span>130</span></li>
+    <li><span>Paneer Pulao</span><span>180</span></li>
+    <li><span>Basanti Pulao</span><span>180</span></li>
+    <li><span>Kashmiri Pulao</span><span>190</span></li>
+  </ul>
 
-<section id="contact">
-  <h2 class="section-title">Contact & Location</h2>
-  <div class="contact">
-    <p><strong>📍 Address:</strong> Central Bus Stand, Majna Rd, Contai, West Bengal, India</p>
-    <p><strong>📞 Restaurant Phone:</strong> 7029122522</p>
-    <p><strong>👨‍💻 Developer Phone:</strong> 9732610701</p>
-    <p><strong>🕘 Opening Hours:</strong> 8:00 AM – 10:30 PM (All Days)</p>
-    <p><strong>📸 Instagram:</strong> @sonartori23</p>
-  </div>
-  <br>
-  <iframe src="https://www.google.com/maps?q=Central%20Bus%20Stand%20Majna%20Rd%20Contai%20West%20Bengal&output=embed" width="100%" height="300" style="border:0; border-radius:8px"></iframe>
+  <h2>🥘 Dal</h2>
+  <ul>
+    <li><span>Veg Tadka</span><span>60 / 80</span></li>
+    <li><span>Egg Tadka</span><span>70 / 100</span></li>
+    <li><span>Chicken Tadka</span><span>80 / 120</span></li>
+    <li><span>Mix Tadka</span><span>90 / 130</span></li>
+    <li><span>Dal Butter Fry</span><span>110</span></li>
+    <li><span>Dal Makhani</span><span>160</span></li>
+  </ul>
+
+  <h2>🥗 Indian Main Course – Veg</h2>
+  <ul>
+    <li><span>Jeera Aloo</span><span>100</span></li>
+    <li><span>Aloo Mutter</span><span>90 / 120</span></li>
+    <li><span>Gobi Khurchan Masala</span><span>140</span></li>
+    <li><span>Aloo Gobi Masala</span><span>90 / 140</span></li>
+    <li><span>Mix Veg</span><span>90 / 140</span></li>
+    <li><span>Chana Masala</span><span>100 / 140</span></li>
+    <li><span>Veg Kolhapuri</span><span>150</span></li>
+    <li><span>Punjabi Aloo Dum</span><span>150</span></li>
+    <li><span>Kashmiri Aloo Dum</span><span>160</span></li>
+    <li><span>Matar Paneer</span><span>110 / 160</span></li>
+    <li><span>Veg Jaipuri</span><span>170</span></li>
+    <li><span>Paneer Butter Masala (4/8 pcs)</span><span>130 / 180</span></li>
+    <li><span>Paneer Do Pyaza</span><span>190</span></li>
+    <li><span>Matar Mushroom</span><span>200</span></li>
+    <li><span>Kadai Paneer</span><span>200</span></li>
+    <li><span>Mushroom Masala</span><span>210</span></li>
+    <li><span>Mushroom Do Pyaza</span><span>210</span></li>
+    <li><span>Shahi Paneer</span><span>210</span></li>
+    <li><span>Paneer Lababdar</span><span>220</span></li>
+    <li><span>Paneer Malai Kofta</span><span>220</span></li>
+    <li><span>Paneer Tikka Masala</span><span>230</span></li>
+  </ul>
+
+  <h2>🍗 Chicken</h2>
+  <ul>
+    <li><span>Chicken Chap</span><span>160</span></li>
+    <li><span>Chicken Curry</span><span>110 / 170</span></li>
+    <li><span>Chicken Kasha</span><span>120 / 180</span></li>
+    <li><span>Chicken Masala</span><span>210</span></li>
+    <li><span>Chicken Handi</span><span>200</span></li>
+    <li><span>Chicken Do Pyaza</span><span>200</span></li>
+    <li><span>Chicken Dak Bunglow</span><span>200</span></li>
+    <li><span>Chicken Bharta</span><span>210</span></li>
+    <li><span>Kadai Chicken</span><span>210</span></li>
+    <li><span>Chicken Butter Masala</span><span>210</span></li>
+    <li><span>Punjabi Chicken</span><span>210</span></li>
+    <li><span>Chicken Lahori</span><span>250</span></li>
+    <li><span>Chicken Tikka Butter Masala</span><span>170 / 260</span></li>
+    <li><span>Chicken Patiala</span><span>260</span></li>
+    <li><span>Chicken Reshmi Butter Masala</span><span>170 / 270</span></li>
+    <li><span>Chicken Tikka Lababdar</span><span>270</span></li>
+    <li><span>Chicken Angara</span><span>270</span></li>
+    <li><span>Sonar Tori Special Chicken Nababi</span><span>320</span></li>
+  </ul>
+
+  <h2>🥩 Mutton</h2>
+  <ul>
+    <li><span>Mutton Curry</span><span>240 / 390</span></li>
+    <li><span>Mutton Chap</span><span>270 / 410</span></li>
+    <li><span>Mutton Kasha</span><span>270 / 410</span></li>
+    <li><span>Mutton Do Pyaza</span><span>270 / 410</span></li>
+    <li><span>Mutton Lal Mass</span><span>280 / 420</span></li>
+    <li><span>Keema Mutton Masala</span><span>290</span></li>
+    <li><span>Mutton Ra Ra</span><span>330</span></li>
+    <li><span>Mutton Rogan Josh</span><span>400</span></li>
+  </ul>
+
+  <h2>⭐ Google Reviews</h2>
+  <a class="button" href="https://www.google.com/search?q=Sonar+Tori+Restaurant+Contai" target="_blank">⭐ Leave a Google Review</a>
 </section>
 
 <footer>
-  <p>&copy; 2026 SONAR TORI Restaurant. All rights reserved.</p>
-  <p>Website designed by <a href="tel:9732610701"><strong>Anirban Adak</strong></a></p>
-  <span class="credit-badge">Developed & Managed by Anirban Adak</span>
+  <p>© 2026 SONAR TORI Restaurant</p>
+  <p>Website designed by <strong>Anirban Adak</strong></p>
+  <p>Instagram: @sonartori23</p>
 </footer>
 
 </body>
